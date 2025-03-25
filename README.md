@@ -59,3 +59,17 @@ El estado `q5` se marca como **estado de aceptación especial para "Ai"**, mient
 
 - **Estado inicial**: `q0`
 - **Estado(s) de aceptación**: `q5`, `q19`
+
+
+## ✅ Verificación mediante pruebas
+
+Para validar el correcto funcionamiento del autómata, se realizaron pruebas automáticas utilizando la librería `plunit` de SWI-Prolog.
+
+Las pruebas incluyeron:
+
+- Palabras válidas como `Aduial`, `Aglarond`, `Aha`, `Ai` y `Aina`
+- Palabras incorrectas o incompletas para asegurar el rechazo adecuado
+
+### 🧪 Resultado de pruebas
+<img width="489" alt="Captura de pantalla 2025-03-25 a la(s) 2 39 06 p m" src="https://github.com/user-attachments/assets/2b3d4d6f-a5b2-4553-a77e-ec2345b4e7e3" />
+
