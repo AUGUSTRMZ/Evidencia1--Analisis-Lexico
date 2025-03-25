@@ -55,7 +55,7 @@ El estado `q5` se marca como **estado de aceptación especial para "Ai"**, mient
 | `q5`          | n       | `q18`         |
 | `q18`         | a       | `q19`         |
 
-### ✅ Estados especiales
+### Estados de importancia
 
 - **Estado inicial**: `q0`
 - **Estado(s) de aceptación**: `q5`, `q19`
