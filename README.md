@@ -91,3 +91,9 @@ i(na)?: Coincide con 'i', seguido opcionalmente por 'na', es decir, coincide con
 |glarond: Coincide con "Aglarond"
 
 |duial: Coincide con "Aduial"
+
+## Referencias:
+- Zathiald. (s. f.). GitHub - Zathiald/automaton: Evidence 1 of the course Implementation of Computational methods. GitHub. https://github.com/Zathiald/automaton/tree/main
+- Xela-Mx. (s. f.). GitHub - XELA-MX/Evidencia-Analizador-Lexico: Repositorio principal para la evidencia uno de la materia Implementación de Métodos Computacionales. GitHub. https://github.com/XELA-MX/Evidencia-Analizador-Lexico
+- Paolamgarrido. (s. f.). GitHub - paolamgarrido/Lexical_Analysis. GitHub. https://github.com/paolamgarrido/Lexical_Analysis/tree/main
+- Jesus. (s. f.). GitHub - Jesus0204/automata: Evidence #1 of the course Implementation of Computational methods, where an Implementation of Lexical Analysis is executed through an Automaton and Regular Expressions. GitHub. https://github.com/Jesus0204/automata/tree/main
