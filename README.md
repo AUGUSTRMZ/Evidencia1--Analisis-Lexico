@@ -6,7 +6,7 @@
 
 ---
 
-## 🔢 Introducción
+## Introducción
 
 Este proyecto presenta el diseño y simulación de un **Autómata Finito Determinista (AFD)** que reconoce un conjunto específico de palabras, derivadas de lenguajes élficos de la obra de Tolkien. El autómata fue desarrollado en **Prolog** y validado con una expresión regular equivalente.
 
@@ -20,7 +20,7 @@ Este proyecto presenta el diseño y simulación de un **Autómata Finito Determi
 
 ---
 
-## 📌 Diseño del Autómata
+## Diseño del Autómata
 <img width="970" alt="Captura de pantalla 2025-03-25 a la(s) 1 32 34 p m" src="https://github.com/user-attachments/assets/9966fc1d-a076-4a04-8ad2-eeb958bd0944" />
 
 El autómata trabaja sobre un alfabeto compuesto por caracteres:  
@@ -61,7 +61,7 @@ El estado `q5` se marca como **estado de aceptación especial para "Ai"**, mient
 - **Estado(s) de aceptación**: `q5`, `q19`
 
 
-## ✅ Verificación mediante pruebas
+## Verificación mediante pruebas
 
 Para validar el correcto funcionamiento del autómata, se realizaron pruebas automáticas utilizando la librería `plunit` de SWI-Prolog.
 
@@ -70,10 +70,10 @@ Las pruebas incluyeron:
 - Palabras válidas como `Aduial`, `Aglarond`, `Aha`, `Ai` y `Aina`
 - Palabras incorrectas o incompletas para asegurar el rechazo adecuado
 
-### 🧪 Resultado de pruebas
+###  Resultado de pruebas
 <img width="489" alt="Captura de pantalla 2025-03-25 a la(s) 2 39 06 p m" src="https://github.com/user-attachments/assets/2b3d4d6f-a5b2-4553-a77e-ec2345b4e7e3" />
 
-## ✳️ Expresión Regular
+## ✳Expresión Regular
 
 Se determinó que la expresión regular más apropiada para describir el lenguaje definido por el autómata es:
 
