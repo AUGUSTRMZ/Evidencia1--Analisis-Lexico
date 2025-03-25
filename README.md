@@ -1,7 +1,7 @@
 # Evidencia1--Analisis-Lexico
 En este proyecto se podrá ver la evidencia 1 
 
-##Tabla de Transiciones del Autómata
+## 📋 Tabla de Transiciones del Autómata (Versión Corregida)
 
 | Estado actual | Entrada | Nuevo estado |
 |---------------|---------|---------------|
@@ -18,14 +18,13 @@ En este proyecto se podrá ver la evidencia 1
 | `q12`         | o       | `q13`         |
 | `q13`         | n       | `q14`         |
 | `q14`         | d       | `q19`         |
-| `q1`          | h       | `q3`          |
-| `q3`          | a       | `q19`         |
+| `q1`          | h       | `q4`          |
+| `q4`          | a       | `q19`         |
 | `q1`          | i       | `q5`          |
-| `q5`          | a       | `q19`         |
 | `q5`          | n       | `q18`         |
 | `q18`         | a       | `q19`         |
 
 ### ✅ Estados especiales
 
 - **Estado inicial**: `q0`
-- **Estado de aceptación**: `q19`
+- **Estado(s) de aceptación**: `q5`, `q19`
