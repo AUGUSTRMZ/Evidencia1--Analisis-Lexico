@@ -1,7 +1,7 @@
 # Evidencia1--Analisis-Lexico
 En este proyecto se podrá ver la evidencia 1 
 
-## 📋 Tabla de Transiciones del Autómata (Versión Corregida)
+## 📋 Tabla de Transiciones del Autómata
 
 | Estado actual | Entrada | Nuevo estado |
 |---------------|---------|---------------|
