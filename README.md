@@ -78,7 +78,7 @@ Las pruebas incluyeron:
 Se determinó que la expresión regular más apropiada para describir el lenguaje definido por el autómata es:
 
 ```regex
-^A(i(na)?|ha|glarond|duial)$
+^A(i(na)?|ha|glarond|duial)
 ```
 ^A: La cadena debe empezar con 'A'.
 ( ... ): Agrupacion las posibles continuaciones de la 'A'.
