@@ -1,5 +1,34 @@
-# Evidencia1--Analisis-Lexico
-En este proyecto se podrá ver la evidencia 1 
+# 🧝‍♂️ Proyecto: Evidencia 1 Analisis Lexico | Reconocimiento de Palabras Élficas
+
+**Autor:** Cesar Augusto Ramirez Davila
+**Matrícula:** A01712439
+
+---
+
+## 🔢 Introducción
+
+Este proyecto presenta el diseño y simulación de un **Autómata Finito Determinista (AFD)** que reconoce un conjunto específico de palabras, derivadas de lenguajes élficos de la obra de Tolkien. El autómata fue desarrollado en **Prolog** y validado con una expresión regular equivalente.
+
+### Palabras aceptadas:
+
+- `Aduial`
+- `Aglarond`
+- `Aha`
+- `Ai`
+- `Aina`
+
+---
+
+## 📌 Diseño del Autómata
+
+El autómata trabaja sobre un alfabeto compuesto por caracteres:  
+**Σ = {A, d, u, i, a, l, g, h, r, o, n}**
+
+Su comportamiento está diseñado para aceptar únicamente las cinco palabras mencionadas.  
+Se parte del estado `q0`, y según las letras leídas, se avanza por rutas específicas.  
+El estado `q5` se marca como **estado de aceptación especial para "Ai"**, mientras que `q19` es el **estado de aceptación general** para las demás palabras.
+
+---
 
 ## 📋 Tabla de Transiciones del Autómata
 
