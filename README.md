@@ -81,8 +81,13 @@ Se determinó que la expresión regular más apropiada para describir el lenguaj
 ^A(i(na)?|ha|glarond|duial)
 ```
 ^A: La cadena debe empezar con 'A'.
+
 ( ... ): Agrupacion las posibles continuaciones de la 'A'.
+
 i(na)?: Coincide con 'i', seguido opcionalmente por 'na', es decir, coincide con "Ai" o "Aina"
+
 |ha: coincide con 'ha' → "Aha"
+
 |glarond: Coincide con "Aglarond"
+
 |duial: Coincide con "Aduial"
