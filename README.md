@@ -73,3 +73,16 @@ Las pruebas incluyeron:
 ### 🧪 Resultado de pruebas
 <img width="489" alt="Captura de pantalla 2025-03-25 a la(s) 2 39 06 p m" src="https://github.com/user-attachments/assets/2b3d4d6f-a5b2-4553-a77e-ec2345b4e7e3" />
 
+## ✳️ Expresión Regular
+
+Se determinó que la expresión regular más apropiada para describir el lenguaje definido por el autómata es:
+
+```regex
+^A(i(na)?|ha|glarond|duial)$
+```
+^A: La cadena debe empezar con 'A'.
+( ... ): Agrupacion las posibles continuaciones de la 'A'.
+i(na)?: Coincide con 'i', seguido opcionalmente por 'na', es decir, coincide con "Ai" o "Aina"
+|ha: coincide con 'ha' → "Aha"
+|glarond: Coincide con "Aglarond"
+|duial: Coincide con "Aduial"
