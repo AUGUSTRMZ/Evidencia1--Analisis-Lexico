@@ -21,6 +21,7 @@ Este proyecto presenta el diseño y simulación de un **Autómata Finito Determi
 ---
 
 ## 📌 Diseño del Autómata
+<img width="970" alt="Captura de pantalla 2025-03-25 a la(s) 1 32 34 p m" src="https://github.com/user-attachments/assets/9966fc1d-a076-4a04-8ad2-eeb958bd0944" />
 
 El autómata trabaja sobre un alfabeto compuesto por caracteres:  
 **Σ = {A, d, u, i, a, l, g, h, r, o, n}**
